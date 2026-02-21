@@ -1,0 +1,88 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        }
+    ],
+    "alwaysShowNotificationIcon": false,
+    "autoHideWindow": false,
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "disableAnimations": true,
+    "defaultProfile": "",
+    "firstWindowPreference": "defaultProfile",
+    "focusFollowMouse": true,
+    "initialCols": 100,
+    "initialRows": 25,
+    "keybindings": [
+        {
+            "id": "User.copy",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "language": "ru",
+    "launchMode": "default",
+    "minimizeToNotificationArea": false,
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": {
+        "defaults": {
+            "antialiasingMode": "cleartype",
+            "colorScheme": "Dark+",
+            "font": {
+                "cellHeight": "1.2",
+                "face": "Fira Code Retina",
+                "size": 16
+            },
+            "opacity": 100,
+            "useAcrylic": false
+        },
+        "list": []
+    },
+    "schemes": [],
+    "showTabsInTitlebar": true,
+    "tabSwitcherMode": "inOrder",
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": false,
+    "windowingBehavior": "useExisting"
+}

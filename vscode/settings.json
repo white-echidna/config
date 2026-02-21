@@ -1,0 +1,184 @@
+{
+    // editor settings
+    "editor.accessibilitySupport": "off",
+    "editor.defaultFormatter": null,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.renderWhitespace": "boundary",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable:rust": {
+                "underline": false
+            }
+        }
+    },
+    // editor.cursor
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "off",
+    // editor.font
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    // editor.formatOnSave
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    // editor.minimap
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.renderCharacters": false,
+    // editor.scrollbar && scrolling
+    "editor.fastScrollSensitivity": 3,
+    "editor.mouseWheelScrollSensitivity": 1.5,
+    "editor.smoothScrolling": true,
+    "editor.scrollbar.horizontal": "auto",
+    "editor.scrollbar.vertical": "hidden",
+    // features settings
+    "chat.commandCenter.enabled": false,
+    "chat.detectParticipant.enabled": false,
+    // terminal
+    "terminal.integrated.altClickMovesCursor": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    // terminal.curorStyle
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "none",
+    // terminal.font
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontSize": 16,
+    // terminal.scrolling
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+    // workbench settins
+    "workbench.activityBar.location": "top",
+    "workbench.externalBrowser": "firefox",
+    "workbench.navigationControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.welcomePage.extraAnnouncements": false,
+    "workbench.editor.showTabs": "single",
+    // workbench.cloudChandes
+    "workbench.cloudChanges.autoResume": "off",
+    "workbench.cloudChanges.continueOn": "off",
+    // workbench.colorTheme
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.preferredDarkColorTheme": "Monokai Pro",
+    "workbench.preferredLightColorTheme": "GitHub Light",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    // workbench.layoutControl
+    "workbench.layoutControl.type": "toggles",
+    // workbench.list
+    "workbench.list.smoothScrolling": true,
+    // workbench.panel
+    "workbench.panel.opensMaximized": "never",
+    // window settings
+    "window.zoomLevel": 1,
+    "window.autoDetectColorScheme": true,
+    "window.customMenuBarAltFocus": false,
+    "window.dialogStyle": "custom",
+    "window.enableMenuBarMnemonics": false,
+    "window.newWindowProfile": "Default",
+    "window.restoreFullscreen": true,
+    "window.zoomPerWindow": false,
+    // update behavior
+    "update.enableWindowsBackgroundUpdates": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    // languages
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.rulers": [
+            100
+        ]
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.rulers": [
+            80,
+            100
+        ]
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.rulers": [
+            80,
+            100
+        ]
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.rulers": [
+            80,
+            100
+        ]
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.rulers": [
+            80,
+            100
+        ]
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.rulers": [
+            80,
+            100
+        ]
+    },
+    // extensions
+    // errorLens
+    "errorLens.alignMessage": {
+        "start": 81,
+        "end": 0,
+        "minimumMargin": 5,
+        "padding": [
+            0,
+            0
+        ],
+        "useFixedPosition": false
+    },
+    "errorLens.enabled": true,
+    "errorLens.messageMaxChars": 100,
+    "errorLens.gutterIconsEnabled": false,
+    "errorLens.onSave": true,
+    "errorLens.removeLinebreaks": true,
+    "errorLens.replaceLinebreaksSymbol": "\n",
+    // errorLens.font
+    "errorLens.fontFamily": "Fira Code",
+    "errorLens.fontSize": "16",
+    // evenBetterToml
+    "evenBetterToml.formatter.allowedBlankLines": 1,
+    "evenBetterToml.formatter.arrayAutoExpand": true,
+    "evenBetterToml.formatter.arrayTrailingComma": true,
+    // cSpell
+    "cSpell.language": "en,ru",
+    "cSpell.customDictionaries": {
+        "custom-dictionary-user": {
+            "name": "default",
+            "path": "~/.cspell/default.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/{info,lfs,logs,refs,objects}/**",
+        ".git/{index,*refs,*HEAD}",
+        ".vscode",
+        ".vscode-insiders",
+        "target",
+        "build"
+    ],
+    // CMake Tools
+    "cmake.useCMakePresets": "always",
+    "cmake.configureOnOpen": false,
+    "cmake.copyCompileCommands": "${workspaceFolder}/build/compile_commands.json",
+    // clangd
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--clang-tidy"
+    ]
+}

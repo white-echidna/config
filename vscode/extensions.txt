@@ -1,0 +1,11 @@
+jeanp413.open-remote-ssh
+mikestead.dotenv
+redhat.vscode-yaml
+usernamehw.errorlens
+aaron-bond.better-comments
+bierner.markdown-mermaid
+davidanson.vscode-markdownlint
+github.github-vscode-theme
+monokai.theme-monokai-pro-vscode
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-russian
