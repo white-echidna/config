@@ -35,7 +35,7 @@
   },
   // Icon Theme
   "icon_theme": "Zed (Default)",
-  // Buufer Font
+  // Bufer Font
   "buffer_font_family": "Fira Code",
   "buffer_font_size": 16.0,
   "buffer_font_weight": 400,
@@ -124,7 +124,7 @@
     "code_actions": false,
     "agent_review": false,
   },
-  // Drag-and-Drop Selectoin
+  // Drag-and-Drop Selection
   "drag_and_drop_selection": {
     "enabled": false,
   },
