@@ -1,0 +1,288 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  // General
+  //
+  // Disable auto updates
+  "auto_update": false,
+  // Disable AI features
+  "disable_ai": true,
+  // Disable telemetry
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  // Use VSCode defaults
+  "base_keymap": "VSCode",
+  // Open projects in new window
+  "default_open_behavior": "new_window",
+  // Attach to existing window when launched from CLI
+  "cli_default_open_behavior": "existing_window",
+
+  // Appearance
+  //
+  // Theme
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark",
+  },
+  // Icon Theme
+  "icon_theme": "Zed (Default)",
+  // Buufer Font
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 16.0,
+  "buffer_font_weight": 400,
+  "buffer_line_height": "comfortable",
+  // UI Font
+  "ui_font_family": ".ZedSans",
+  "ui_font_size": 16.0,
+  "ui_font_weight": 400,
+  // Cursor
+  "cursor_blink": false,
+  "cursor_shape": "bar",
+  "hide_mouse": "never",
+  // Guides
+  "theme_overrides": {
+    "Ayu Light": {
+      "editor.wrap_guide": "#5c61661a",
+    },
+    "Ayu Dark": {
+      "editor.wrap_guide": "#bfbdb61a",
+    }
+  },
+
+  // Editor
+  //
+  // Auto Save
+  "autosave": "on_window_change",
+  "format_on_save": "off",
+  // Multibuffers
+  "double_click_in_multibuffer": "open",
+  "diff_view_style": "unified",
+  // Scrolling
+  "scroll_sensitivity": 1.2,
+  "fast_scroll_sensitivity": 3.0,
+  "autoscroll_on_clicks": false,
+  "scroll_beyond_last_line": "one_page",
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  // Wrapping
+  "soft_wrap": "none",
+  "allow_rewrap": "in_comments",
+  "show_wrap_guides": true,
+  "wrap_guides": [
+    80,
+    100,
+  ],
+  // Indentation
+  "auto_indent": "syntax_aware",
+  "auto_indent_on_paste": true,
+  // Indent Guides
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "fixed",
+    "background_coloring": "disabled",
+  },
+  // Autoclose
+  "use_autoclose": true,
+  "use_auto_surround": true,
+  // Whitespace
+  "show_whitespaces": "boundary",
+  // Scrollbar
+  "scrollbar": {
+    "axes": {
+      "horizontal": true,
+      "vertical": false,
+    },
+    "cursors": false,
+    "git_diff": false,
+    "search_results": true,
+    "selected_text": false,
+    "selected_symbol": false,
+  },
+  // Minimap
+  "minimap": {
+    "show": "always",
+    "display_in": "all_editors",
+    "current_line_highlight": "none",
+    "max_width_columns": 80,
+    "thumb": "always",
+  },
+  // Toolbar
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true,
+    "selections_menu": false,
+    "code_actions": false,
+    "agent_review": false,
+  },
+  // Drag-and-Drop Selectoin
+  "drag_and_drop_selection": {
+    "enabled": false,
+  },
+  // Which-key Menu
+  "which_key": {
+    "enabled": false,
+  },
+  // Signature Help
+  "auto_signature_help": false,
+  "show_signature_help_after_edits": false,
+  // Hover Popover
+  "hover_popover_enabled": true,
+  "hover_popover_sticky": true,
+  // Completions
+  "show_completions_on_input": true,
+  "show_completion_documentation": false,
+  "completion_menu_item_kind": "symbol",
+  "completion_menu_scrollbar": "auto",
+  // Inlay Hints
+  "inlay_hints": {
+    "enabled": false,
+    "show_background": false,
+    "show_parameter_hints": true,
+    "show_type_hints": true,
+    "show_value_hints": true,
+    "show_other_hints": true,
+    "toggle_on_modifiers_press": {
+      "control": true,
+    }
+  },
+  // Tasks
+  "tasks": {
+    "enabled": true,
+    "prefer_lsp": true,
+  },
+  // Diagnostics
+  "diagnostics": {
+    "button": true,
+    "inline": {
+      "enabled": true,
+    }
+  },
+  // Miscellaneous
+  "word_diff_enabled": true,
+  "middle_click_paste": false,
+  "extend_comment_on_newline": true,
+  "colorize_brackets": false,
+
+  // Window & Layout
+  //
+  // Status Bar
+  "status_bar": {
+    "show_active_file": false,
+    "cursor_position_button": true,
+    "active_language_button": true,
+  },
+  // Title Bar
+  "title_bar": {
+    "show_menus": false,
+    "show_user_picture": false,
+    "show_user_menu": true,
+    "show_sign_in": true,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_branch_status_icon": false,
+  },
+  // Tab Bar
+  "tab_bar": {
+    "show": false,
+  },
+  // Tab Settings
+  "tabs": {
+    "activate_on_close": "history",
+    "file_icons": true,
+    "git_status": true,
+  },
+  // Layout
+  "bottom_dock_layout": "contained",
+  "centered_layout": {
+    "right_padding": 0.1,
+    "left_padding": 0.1,
+  },
+
+  // Panels
+  //
+  // Project
+  "project_panel": {
+    // Dock
+    "dock": "left",
+    "button": true,
+    // Appearance
+    "entry_spacing": "comfortable",
+    "sort_mode": "directories_first",
+    "file_icons": true,
+    "folder_icons": true,
+    "sticky_scroll": true,
+    // Scrollbar
+    "scrollbar": {
+      "horizontal_scroll": true,
+    },
+  },
+  // Terminal
+  "terminal": {
+    // Dock
+    "dock": "bottom",
+    "button": true,
+    // Terminal Font
+    "font_family": "Fira Code",
+    "font_size": 16.0,
+    "font_weight": 400,
+    // Cursor
+    "cursor_shape": "bar",
+    "blinking": "off",
+    // Miscellaneous
+    "show_count_badge": false,
+  },
+  // Outline
+  "outline_panel": {
+    // Dock
+    "dock": "left",
+    "button": true,
+  },
+  // Git
+  "git_panel": {
+    // Dock
+    "dock": "right",
+    "button": true,
+    // Appearance
+    "status_style": "icon",
+  },
+  // Debugger
+  "debugger": {
+    // Dock
+    "dock": "bottom",
+    "button": true,
+  },
+  // Collaboration
+  "collaboration_panel": {
+    "button": false,
+  },
+  // Agent
+  "agent": {
+    "button": false,
+  },
+
+  "wsl_connections": [
+    {
+      "distro_name": "Ubuntu",
+      "user": null,
+      "projects": [
+        {
+          "paths": [
+            "/home/echidna/dev/radix",
+            "/home/echidna/dev/picodata",
+          ],
+        },
+      ],
+    },
+  ],
+}

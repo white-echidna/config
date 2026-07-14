@@ -1,0 +1,10 @@
+[user]
+	email = dm.a.titov@ya.ru
+	name = Titov Dmitry
+
+[alias]
+	br = "branch"
+	ci = "commit"
+	cm = "commit -m"
+	co = "checkout"
+	st = "status"
