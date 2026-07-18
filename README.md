@@ -13,3 +13,4 @@ This repository contains some configuration files for tools that I am using.
 - Visual Studio Code: [`vscode`](./vscode/)
 - Zed Editor [`zed`](./zed/)
 - Git: [`git`](./git/)
+- Jujutsu [`jj`](./jj/)
