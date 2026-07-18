@@ -1,0 +1,75 @@
+{
+  "assist": {
+    // NOTE: Not shure what style should be enforced
+    // "preferSelf": true,
+  },
+  // Disable cache priming
+  "cachePriming": { "enable": false },
+  "cargo": {
+    // Use specific target directory for rust-analyzer
+    "targetDir": true,
+    // NOTE: With cache priming disabled, all targets will be indexed as required
+    // "allTargets": false,
+    // Disable implicit background processes
+    "autoreload": false,
+    "buildScripts": {
+      "rebuildOnSave": false,
+    },
+  },
+  // `cargo check`
+  "checkOnSave": true,
+  "check": {
+    // Check only required things
+    "allTargets": false,
+    "workspace": false,
+  },
+  "completion": {
+    // Disable autoimport. Heck, you can do it with quick actions
+    "autoimport": { "enable": false },
+  },
+  // Disable rust-analyzer developer-only feature. Why on earth is it enabled?
+  "disableFixtureSupport": true,
+  // Filter out generated implemenations
+  "gotoImplementations": {
+    "filterAdjacentDerives": true,
+  },
+  "hover": {
+    // Disable action buttons
+    "actions": { "enable": false },
+    // NOTE: Currently editor cannot show this information properly
+    // See https://github.com/rust-lang/rust-analyzer/issues/22823
+    "documentation": { "enable": false },
+    // Show drop glue information
+    "dropGlue": { "enable": true },
+    // NOTE: Disable memory layout information as superseded by
+    // https://github.com/zed-industries/zed/discussions/28857
+    "memoryLayout": { "enable": false },
+  },
+  "inlayHints": {
+    "bindingModeHints": { "enable": true },
+    "chainingHints": { "enable": true },
+    "closingBraceHints": { "enable": true },
+    "closureCaptureHints": { "enable": true },
+    "closureReturnTypeHints": { "enable": "always" },
+    "discriminantHints": { "enable": "fieldless" },
+    "expressionAdjustmentHints": { "enable": "reborrow" },
+    "genericParameterHints": {
+      "const": { "enable": true },
+      "type": { "enable": true },
+      "lifetime": { "enable": false },
+    },
+    "implicitDrops": { "enable": false },
+    "implicitSizedBoundHints": { "enable": false },
+    "impliedDynTraitHints": { "enable": false },
+    "lifetimeElisionHints": { "enable": "skip_trivial" },
+    "typeHints": {
+      "hideClosureInitialization": true,
+      "hideNamedConstructor": true,
+    },
+  },
+  // Disable code lens
+  "lens": { "enable": false },
+  "lru": {
+    "capacity": 1024,
+  },
+}
